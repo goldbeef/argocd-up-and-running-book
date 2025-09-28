@@ -14,6 +14,6 @@ spec:
     targetPort: 8080
   selector:
     app: pricelist
-    tier: frontend1
+    tier: frontend
 status:
   loadBalancer: {}
