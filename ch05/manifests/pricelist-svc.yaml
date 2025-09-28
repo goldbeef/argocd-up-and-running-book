@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: pricelist
-    tier: frontend1
+    tier: frontend
   name: pricelist
   annotations:
     argocd.argoproj.io/sync-wave: "4"
