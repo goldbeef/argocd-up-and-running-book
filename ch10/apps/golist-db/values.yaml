@@ -1,5 +1,5 @@
 mariadb:
-  image: bitnamilegacy/mariadb:10.6.8-debian-11-r9
+  image: "bitnamilegacy/mariadb:10.6.8-debian-11-r9"
   architecture: "standalone"
   auth:
     database: "golist"
